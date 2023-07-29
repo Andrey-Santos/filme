@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>Clone Disney Plus</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">
+                <img src="dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width:768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">O Rei Leão 2019</h2>
+            <p class="text--big">
+                Traído e exilado de seu reino, o leãozinho Simba precisa descobrir como crescer e retomar seu destino como herdeiro real nas planícies da savana africana.
+            </p>
+        </div>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual o ano de lançamento do filme?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    2019
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    É indicado para todas as idades?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    É uma história original?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Não é uma adaptação do filme de 1994 agora em live action
+                </div>
+            </li>
+        </ul>
+    </section>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
